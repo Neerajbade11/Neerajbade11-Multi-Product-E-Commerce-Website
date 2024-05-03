@@ -22,6 +22,9 @@ This project is a multi-product e-commerce website that allows users to browse a
 - CSS
 - JavaScript
 - Fetch API
+- 
+## Deployment
+The project is deployed and can be accessed [here](https://neerajbade11-multi-product-e-commerce-website.vercel.app/).
 
 ## About
 This project was developed as part of a coding assessment to demonstrate proficiency in front-end web development technologies and concepts.
