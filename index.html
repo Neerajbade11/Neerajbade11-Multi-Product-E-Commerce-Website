@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Multi-Product E-Commerce Website</title>
+
+</head>
+
+<body>
+    <section class="Category-tabs-section">
+        <div class="container">
+            <div class="header-content">
+                <h1>select your choice</h1>
+                <ul class="header-tab-list">
+                    <li id="Men" class="header-item"  onclick="getProducts('Men')">Men <img alt="man img" src="/assets/man.png" /></li>
+                    <li id="Women" class="header-item"  onclick="getProducts('Women')">Women <img alt="girl img" src="/assets/girl.png" /></li>
+                    <li id="Kids" class="header-item"  onclick="getProducts('Kids')">Kids <img alt="kid img" src="/assets/kid.png" /></li>
+                </ul>
+            </div>
+            <div id="categories">
+                <ul id="categories-list">
+                </ul>
+            </div>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+
+</html>
